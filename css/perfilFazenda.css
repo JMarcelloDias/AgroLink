@@ -85,6 +85,17 @@ header #logo p {
     box-shadow: 2px 2px 5px rgb(187 187 187);
     border-radius: 50px;
 }
+
+#menu_mobile{
+    position: fixed;
+    top: 78px;
+    height: 100vh;
+    width: 100%;
+    z-index: 5;
+    display: none;
+    justify-content: flex-end;
+}
+
 footer{
     background-color: #F7FFE5;
     display: flex;
@@ -476,15 +487,7 @@ header #simbMenu{
         margin-bottom: 2%;
     }
 
-    #menu_mobile{
-        position: fixed;
-        top: 78px;
-        height: 100vh;
-        width: 100%;
-        z-index: 5;
-        display: flex;
-        justify-content: flex-end;
-    }
+    
     
     #conteinerMenu{
         background: white;

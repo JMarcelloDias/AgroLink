@@ -1,12 +1,15 @@
 function showMenu(){
-    var mobileMenu = document.getElementById('conteinerMenu');
+    var mobileMenu = document.getElementById('menu_mobile');
+    var conteinerMenu = document.getElementById('conteinerMenu');
     var header = document.querySelector('header');
 
     if(mobileMenu.style.display == 'flex'){
+        conteinerMenu.style.display = 'none';
         mobileMenu.style.display = 'none';
         mobileMenu.style.boxShadow = 'none';
         header.style.boxShadow = '0px 4px 18px rgb(203, 203, 203)';
     }else{
+        conteinerMenu.style.display = 'flex';
         mobileMenu.style.display = 'flex';
         header.style.boxShadow = 'none';
     }

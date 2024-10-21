@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/categorias.css">
-    <script src="js/index.js"></script>
     <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
     <title>Categoria</title>
 </head>
@@ -17,13 +16,6 @@
             </div>
             <h2>Filtrar</h2>
             <menu>
-                <select id="Categoria">
-                    <option value="">Categoria</option>
-                    <option value="Grãos">Grãos</option>
-                    <option value="Legumes">Legumes</option>
-                    <option value="Frutas">Frutas</option>
-                    <option value="Carnes">Carnes</option>
-                </select>
     
                 <select id="Estado" name="Estado">
                     <option value="">Estado</option>
@@ -126,13 +118,6 @@
         <button onclick="AbrirFiltro(1)" value="1" id="ButtonMobileFiltro">Filtrar</button>
     </div>
     <menu>
-        <select id="Categoria">
-            <option value="">Categoria</option>
-            <option value="Grãos">Grãos</option>
-            <option value="Legumes">Legumes</option>
-            <option value="Frutas">Frutas</option>
-            <option value="Carnes">Carnes</option>
-        </select>
 
         <select id="Estado" name="Estado">
             <option value="">Estado</option>
@@ -173,7 +158,8 @@
     <div id="conteiner">
         <div id="prods">
             <div class="linha">
-                <div class="produto">
+
+                <a href="Produto.html" class="produto">
                     <img src="img/fotoProduto.png" alt="Foto Produto">
                     <p>Feijão Carioca - Fazenda Laje Grande - Saca 50kg</p>
 
@@ -209,9 +195,9 @@
                     
 
                     <p class="valor">R$ 445,50</p>
-                </div>
+                </a>
                 
-
+                
                 <div class="produto">
                     <img src="img/fotoProduto20.png" alt="Foto Produto">
                     <p>Café não torrado Fazenda tazfo - saca 45kg</p>
@@ -699,6 +685,7 @@
         </div>
     </footer>
     <script src="js/Rastreamento.js"></script>
+    <script src="js/index.js"></script>
     
 </body>
 </html>

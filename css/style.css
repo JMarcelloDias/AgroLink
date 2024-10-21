@@ -107,10 +107,6 @@ menu select {
     outline: 0;
 }
 
-#menu_mobile {
-    display: none;
-}
-
 #carouselExampleIndicators {
     margin-top: 1.5%;
 }
@@ -394,7 +390,7 @@ header #simbMenu {
     height: 100vh;
     width: 100%;
     z-index: 5;
-    display: flex;
+    display: none;
     justify-content: flex-end;
 }
 
@@ -402,7 +398,7 @@ header #simbMenu {
     background: white;
     width: 54%;
     height: 100vh;
-    display: flex;
+    display: none;
     flex-direction: column;
     align-items: center;
     border-top: 1px solid #282626;
@@ -571,7 +567,7 @@ header #simbMenu {
     }
    
     #conteinerMenu{
-        display: flex;
+        display: none;
     }
 
     #conteinerMenu a{

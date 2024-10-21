@@ -287,6 +287,7 @@ section p{
     width: 24%;
     box-shadow: 2px 2px 5px rgb(187 187 187);
     border-radius: 10px;
+    color: black;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -338,7 +339,7 @@ menu{
     width: 50%;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    
     align-items: center;
     margin-bottom: 2%;
     margin-top: 1%;
@@ -354,6 +355,7 @@ menu select{
     border-radius: 50px;
     padding: 0.2% 12% 0.2% 3%;
     outline: 0;
+    margin-right: 5%;
 }
 
 header #simbMenu{
@@ -366,7 +368,7 @@ header #simbMenu{
     height: 100vh;
     width: 100%;
     z-index: 5;
-    display: flex;
+    display: none;
     justify-content: flex-end;
 }
 

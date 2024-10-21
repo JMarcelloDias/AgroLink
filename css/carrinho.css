@@ -228,7 +228,7 @@ h2 {
     height: 100vh;
     width: 100%;
     z-index: 5;
-    display: flex;
+    display: none;
     justify-content: flex-end;
 }
 
