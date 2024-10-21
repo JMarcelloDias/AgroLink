@@ -355,11 +355,29 @@ menu select{
     padding: 0.2% 12% 0.2% 3%;
     outline: 0;
 }
+
 header #simbMenu{
     display: none;
 }
+
 #menu_mobile{
-    display: none;
+    position: fixed;
+    top: 78px;
+    height: 100vh;
+    width: 100%;
+    z-index: 5;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#conteinerMenu{
+    background: white;
+    width: 54%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    border-top: 1px solid #282626;
+    border-left: 1px solid #282626;
 }
 
 
@@ -449,7 +467,7 @@ header #simbMenu{
     color: #2c720e;
     font-weight: 700;
     font-family: 'Cairo';
-    font-size: large;
+    font-size: medium;
     border: 1px solid #2c720e;
     margin-bottom: 4%;
     width: 28%;
@@ -505,31 +523,27 @@ header #simbMenu{
     }
 
     menu select {
-        
         padding: 0.2% 4% 0.2% 3%;
     }
 
-    #menu_mobile{
-        display: none;
-        height: 300px;
-       
-        flex-direction: column;
-    }
-    #menu_mobile a{
-        color: #383838;
-        padding: 0% 35% 0% 40%;
+    #conteinerMenu{
         display: flex;
-        align-items: start;
+    }
+
+    #conteinerMenu a{
+        color: #383838;
+        padding: 3% 0% 3% 14%;
+        display: flex;
+        align-items: center;
         font-family: "Cairo", sans-serif;
         justify-content: start;
     }
 
-    #menu_mobile img{
-        width: 20px;
+    #conteinerMenu svg{
         margin-right: 15%;
     }
 
-    #menu_mobile button{
+    #conteinerMenu button{
         background-color: #F7FFE5;
         height: 32px;
         text-align: center;
@@ -669,4 +683,9 @@ header #simbMenu{
     #filtrar menu select{
         font-size: medium;
     }
+
+    #conteiner {
+        margin: 0;
+    }
+
 }

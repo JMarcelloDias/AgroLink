@@ -423,8 +423,57 @@ header #simbMenu{
     display: none;
 }
 #menu_mobile{
-    display: none;
+    position: fixed;
+    top: 78px;
+    height: 100vh;
+    width: 100%;
+    z-index: 5;
+    display: flex;
+    justify-content: flex-end;
 }
+
+#conteinerMenu{
+    background: white;
+    width: 54%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    border-top: 1px solid #282626;
+    border-left: 1px solid #282626;
+}
+
+#conteinerMenu{
+    display: flex;
+}
+
+hr{
+    margin: 0;
+}
+
+#conteinerMenu a{
+    color: #383838;
+    padding: 3% 0% 3% 14%;
+    display: flex;
+    align-items: center;
+    font-family: "Cairo", sans-serif;
+    justify-content: start;
+}
+
+#conteinerMenu svg{
+    margin-right: 15%;
+}
+
+#conteinerMenu button{
+    background-color: #F7FFE5;
+    height: 32px;
+    text-align: center;
+    border: none;
+    padding: 0 25%;
+    box-shadow: 2px 2px 5px rgb(187 187 187);
+    border-radius: 50px;
+}
+
+
 @media (max-width: 430px) {
     #divBusca{
         display: none;

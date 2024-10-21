@@ -1,5 +1,5 @@
 function showMenu(){
-    var mobileMenu = document.getElementById('menu_mobile');
+    var mobileMenu = document.getElementById('conteinerMenu');
     var header = document.querySelector('header');
 
     if(mobileMenu.style.display == 'flex'){
@@ -13,7 +13,7 @@ function showMenu(){
 }
 
 window.addEventListener('resize', function() {
-    var mobileMenu = document.getElementById('menu_mobile'); 
+    var mobileMenu = document.getElementById('conteinerMenu'); 
     if (window.innerWidth > 450) {
         mobileMenu.style.display = 'none';
     }
