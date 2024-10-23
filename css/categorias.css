@@ -476,6 +476,8 @@ header #simbMenu{
     border-radius: 7px;
 }
 
+
+
 @media (max-width: 430px) {
     #divBusca {
         display: none;
