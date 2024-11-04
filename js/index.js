@@ -8,10 +8,12 @@ function showMenu(){
         mobileMenu.style.display = 'none';
         mobileMenu.style.boxShadow = 'none';
         header.style.boxShadow = '0px 4px 18px rgb(203, 203, 203)';
+        document.body.style.overflow = 'auto';
     }else{
         conteinerMenu.style.display = 'flex';
         mobileMenu.style.display = 'flex';
         header.style.boxShadow = 'none';
+        document.body.style.overflow = 'hidden';
     }
 }
 
